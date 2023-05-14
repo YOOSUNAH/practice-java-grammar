@@ -34,6 +34,8 @@ public class _07_Dowhile {
             move += 3;
         } while (move + height < distance); //28은 25보다 작지 않아 탈출
         System.out.println("도착했습니다.");
+        System.out.println("도착했습니다.2");                              
+        
 
     }
 }
