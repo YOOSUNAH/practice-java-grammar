@@ -8,12 +8,12 @@ public class _Quiz_05 {
 
         // 사이즈 250 (재고 있음)
         // 사이즈 255 (재고 있음)
-
+        // 내가 직접 품
         for (int i = 250; i <= 295; i+=5) {
             System.out.println("사이즈 "+ i + " (재고 있음)");
         }
         System.out.println("-----");
-
+        // 해설
         int[] sizeArray = new int[10];
         for (int i = 0; i < sizeArray.length; i++) {
          sizeArray[i] = 250 + (5 * i);
