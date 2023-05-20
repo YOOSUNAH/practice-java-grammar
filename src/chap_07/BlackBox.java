@@ -16,6 +16,28 @@ public class BlackBox {
 
     static boolean canAutoReport = false; // 자동 신고 기능
 
+    void autoReport() {
+        if (canAutoReport) {
+            System.out.println("충돌이 감지되어 자동으로 신고합니다.");
+        } else {
+            System.out.println("자동 신고 기능이 지원되지 않습니다.");
+        }
+    }  // 자동 신고 기능하는 메소드
+
+    void insertMemoryCard(int capacity) {
+        System.out.println("메모리 카드가 삽입되었습니다.");
+        System.out.println("용량은 " + capacity + "GB 입니다.");
+    }   // 전달값 있는 메소드
+
+    // 전달값 과 반환값도 있는 메소드
+    int getVideoFileCount(int type) {
+        if (type == 1) {// 일반 영상
+            return 9;
+        } else if (type == 2) {
+            return 1;
+        }
+        return 10;
+    }
 
 
 }
