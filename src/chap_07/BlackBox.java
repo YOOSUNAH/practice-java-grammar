@@ -3,9 +3,19 @@ package chap_07;
 public class BlackBox {
 
     // main method 필요없고 바로 변수 정의 하면 됨.
+    // static 없이 그냥 작성한 변수는 인스턴스
+    // 서로 다른 객체에서 서로 다른 값을 가짐.
     String modelName; // 모델명
     String resoultion; // 해상도
     int price; // 가격
     String color; // 색상
+
+    // static 을 붙이면 class 변수라고 함. class 내에 class 변수
+    // 이 class로 부터 만들어지는 모든 객체에 똑같이 적용이 됨
+    // class 로 부터 만들어진 객체에다가 공통적으로 적용해야 하는 상황이 있다면, 그 변수는 인스턴스 변수가 아니고 class 변수로 사용
+
+    static boolean canAutoReport = false; // 자동 신고 기능
+
+
 
 }
