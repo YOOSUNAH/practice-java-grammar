@@ -28,5 +28,5 @@ public class _03_ClassVariables {
 
 
 
-    }수
+    }
 }
