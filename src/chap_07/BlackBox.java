@@ -63,4 +63,9 @@ public class BlackBox {
        //(가능) canAutoReport = false;  // static으로 선언한 class 변수는 static 메소드에서 바로 사용할수 있다.
 
     }
+
+     void appendModelName(String modelName) {
+       this.modelName += modelName; // class가 가지고 있는 인스턴스 변수에 modelName을 명시하고 싶으면 this. 을 붙이면 됨. 그럼 class내 인스턴스 변수에 직접 접근하게 됨
+        // this. 이 없는 modelName은 파라미터로 전달 받은 (String modelName)에서 modelName
+    }
 }
