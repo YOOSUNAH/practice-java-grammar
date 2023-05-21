@@ -55,6 +55,12 @@ public class BlackBox {
 
     void record() {
         record(true, true, 5);
-    };
+    }
 
+    static void callServiceCenter() {
+        System.out.println("서비스 센터(1588-0000)로 연결합니다.");
+        //(불가능) modelName = "test;  // 인스턴스 변수는 객체가 만들어져야 만들어지는 변수이기 때문에, static 메소드에서는 직접접근이 불가능하다.
+       //(가능) canAutoReport = false;  // static으로 선언한 class 변수는 static 메소드에서 바로 사용할수 있다.
+
+    }
 }
