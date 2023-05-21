@@ -21,7 +21,7 @@ public class _10_AccessModifier {
 
         //할인 행사
         b1.setPrice(-5000);
-        System.out.println("가격 : " + b1.getPrice() + "원");
+       // System.out.println("가격 : " + b1.getPrice() + "원");  //price  private로 해둬서 안됨
 
         // 고객 문의
         System.out.println("해상도 : " + b1.resoultion);
@@ -33,7 +33,7 @@ public class _10_AccessModifier {
         b2.setPrice(-5000);
         b2.setColor("화이트");
 
-        System.out.println("가격 : " + b2.getPrice() + "원");
+      //  System.out.println("가격 : " + b2.getPrice() + "원"); ////price  private로 해둬서 안됨
         System.out.println("해상도 : " + b2.getResoultion());
 
 
