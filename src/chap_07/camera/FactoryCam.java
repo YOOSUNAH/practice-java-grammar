@@ -1,5 +1,7 @@
 package chap_07.camera;
 
+
+// FactoryCam is a Camera.  (Is-A 관계)
 public class FactoryCam extends Camera { // 자식 클래스. 부모는 한개만 설정할수있음
 
 
