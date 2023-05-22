@@ -5,10 +5,15 @@ public class SpeedCam extends Camera { // 자식 클래스
 
 
     public SpeedCam() {
-        this.name = "과속단속 카메라";
+        // this.name = "과속단속 카메라";
+    super("과속단속 카메라");
+    // 부모클래스의 생성자를 호출하는데, 과속단속카메라라는 이름을 정의해줌.
     }
-
-
+    public void takePicture() {
+        super.takePicture();
+        checkSpeed();
+        recognizeLicensePlate();
+    }
 
     public void checkSpeed() {
         // 속도 체크
