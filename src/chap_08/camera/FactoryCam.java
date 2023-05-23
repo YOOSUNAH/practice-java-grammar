@@ -7,4 +7,12 @@ public class FactoryCam extends Camera {  // Camera 클래스를 상속해야 �
         System.out.println("화재 감지");
 
     }
+    // 화재 감지 메소드 정의
+    public void detect(){
+        System.out.println("화재를 감지합니다.");
+    }
+
+    public void report(){
+        System.out.println("화재 신고를 진행합니다.");
+    }
 }
