@@ -1,5 +1,9 @@
 package chap_08;
 
+import chap_08.camera.FactoryCam;
+import chap_08.dector.AdvancedFireDetector;
+import chap_08.dector.Detectable;
+import chap_08.dector.FireDetector;
 import chap_08.reporter.NormalReporter;
 import chap_08.reporter.Reportable;
 import chap_08.reporter.VideoReporter;
@@ -18,5 +22,22 @@ public class _02_Interface {
         Reportable videoReporter = new VideoReporter();
         videoReporter.report();
         // 메소드를 호출해봄
+
+        System.out.println("----------------");
+
+        // 객체를 만들어서 테스트 해보자
+        Detectable fireDetector = new FireDetector();
+        fireDetector.detect();
+
+        Detectable advancedFireDetector = new AdvancedFireDetector();
+        advancedFireDetector.detect();
+
+        System.out.println("----------------");
+        FactoryCam factoryCam = new FactoryCam();
+        factoryCam.setDetector(fireDetector);
+        factoryCam.setReporter(normalReporter);
+
+        factoryCam.detect();
+        factoryCam.report();
     }
 }
