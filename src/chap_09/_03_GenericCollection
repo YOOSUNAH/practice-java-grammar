@@ -15,6 +15,16 @@ public class _03_GenericCollection {
 		Double aDouble = doubleList.get(0); // Double 컬렉션에서 원소 조회 시 Double 타입으로 조회 가능
 
 		System.out.println("------------");
+		String loveYou = """
+			                                                             ,---.
+			,--.                             ,--.   ,--.                 |   |
+			|  |    ,---.,--.  ,--.,---.      \\  `.'  /,---. ,--.,--.    |  .'
+			|  |   | .-. |\\  `'  /| .-. :      '.    /| .-. ||  ||  |    |  |
+			|  '--.' '-' ' \\    / \\   --.        |  | ' '-' ''  ''  '    `--'
+			`-----' `---'   `--'   `----'        `--'  `---'  `----'     .--.
+			                                                             '--'
+			""";
+		System.out.println(loveYou);
 
 	}
 }
