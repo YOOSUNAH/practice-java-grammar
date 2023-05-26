@@ -43,5 +43,6 @@ public class _02_GenericClass {
         System.out.println("주문 고객 이름 : " + c6Name);
 
 
+
     }
 }
