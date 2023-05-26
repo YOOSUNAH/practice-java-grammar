@@ -1,0 +1,20 @@
+package chap_09
+
+import java.util.List;
+
+public class _03_GenericCollection {
+
+	public static void main(String[] args) {
+		List<String> stringList = List.of("a", "b", "c");
+		List<Integer> integerList = List.of(1, 2, 3);
+		List<Double> doubleList = List.of(1.0, 2.0, 3.0);
+		System.out.println("------------");
+
+//		stringList.add(1); String 컬렉션에 Integer 추가 불가
+//		integerList.add("A"); // Integer 컬렉션에 String 추가 불가
+		Double aDouble = doubleList.get(0); // Double 컬렉션에서 원소 조회 시 Double 타입으로 조회 가능
+
+		System.out.println("------------");
+
+	}
+}
