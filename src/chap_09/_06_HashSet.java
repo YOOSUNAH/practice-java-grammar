@@ -1,4 +1,4 @@
-package chap_09.user;
+package chap_09;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
