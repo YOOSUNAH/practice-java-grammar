@@ -31,12 +31,6 @@ public class _01_TryCatch {
             System.out.println("이런 문제가 발생했어요  => " + e.getMessage());
             e.printStackTrace();
         }
-
-
-
-
-
-
         System.out.println("프로그램 정상 종료"); // 출력이 안되면 그냥 이 문장 안 나오고 끝나버림
 
     }
