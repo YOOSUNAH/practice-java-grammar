@@ -35,12 +35,19 @@ public class _Quiz_12 {
         threadA.start();
         threadB.start();
 
+        // (방법1) 두개의 상품이 포장되길 기다리는 걸 join으로 하거나
         try {
             threadA.join();
             threadB.join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        // (방법2) threadA가 살아있거나 B가 살아있는 동안 아무것도 하지 않고 계속 기다리게 한다
+//       while(threadA.isAlive() || threadB.isAlive()){
+//
+//       }
+
+
 
 
         Runnable runnableSet = () -> {
