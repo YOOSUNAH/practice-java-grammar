@@ -29,6 +29,30 @@ public class _02_Output {
         System.out.printf("%06.2f%n", Math.PI); // 003.14 //6자리 공간확보, 소수점둘째자리까지 출력, 빈자리는 0을로 출력
         System.out.printf("%+6.2f%n", Math.PI); //_+3.14  // 항상+-기호표시 //원래 양수면 플러스 기호 생략하는데 표시하려면 + 붙임
 
+        System.out.println("-------- 문자열 --------");
+        System.out.printf("%s%n", "Java"); //Java (일반출력)
+        System.out.printf("%6s%n", "Java"); // __Java (6자리 공간 확보하고 우측 정렬)
+        System.out.printf("%-6s%n", "Java"); // Java__ (6자리 공간 확보하고 좌측 정렬)
+        System.out.printf("%6.2s%n", "Java"); // ____Ja (6자리 공간 확보하고 우측 정렬해서 2글자 출력) // .2 앞에서 두글자만 출력
+        System.out.printf("%-6.2s%n", "Java"); //Ja____ (6자리 공간 확보하고 좌측 정렬해서 2글자 출력)
+
+        System.out.println("-------- 응용1 --------");
+        System.out.println("이름 영어 수학 평균");
+        System.out.println("강백호 " + 90 + " " + 80 + " " + 85.0); // 강백호 90 80 85.0
+        System.out.println("서태웅 " + 100 + " " + 100 + " " + 100.0); // 서태웅 100 100 100.0
+        System.out.println("채치수 " + 95 + " " + 100 + " " + 97.5); // 채치수 95 100 97.5
+
+        System.out.println("-------- 응용2 --------");
+        System.out.println("이름      영어   수학   평균"); // 공백이 각각 6, 3, 3 칸으로 구분
+        System.out.printf("%-6s %4d %4d %6.1f%n", "강백호", 90, 80, 85.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "서태웅", 100, 100, 100.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "채치수", 95, 100, 97.5);
+
+        System.out.println("-------- 참고 --------");
+        System.out.println("ABCDEFG");
+        System.out.println("가나다라마바사");
+        System.out.println("가 나 다 라");
+
 
     }
 }
