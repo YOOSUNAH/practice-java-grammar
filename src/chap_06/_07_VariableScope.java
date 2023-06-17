@@ -17,5 +17,7 @@ public class _07_VariableScope {
        // System.out.println(i); //for 문에서 선언된 i 는 선언된 중괄호 내에서만 사용 가능 (for문 밖에서는 사용 못함
 
 
+
+
     }
 }

@@ -60,7 +60,7 @@ public class _08_NestedLoop {
             for (int j = 0; j < 4 - i ; j++) {
                 System.out.print(" ");
             }
-            for (int k = 0; k < i + 1; k++) {
+            for (int k = 0; k <= i ; k++) {
                 System.out.print("*");
             }
             System.out.println();

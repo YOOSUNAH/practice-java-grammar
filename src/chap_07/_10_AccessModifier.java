@@ -3,9 +3,9 @@ package chap_07;
 public class _10_AccessModifier {
     public static void main(String[] args) {
         // 캡슐화 (Encapsulation) : 필요한 것들끼리만,서로 연관된 것들끼리만 하나의 캡슐에 담는다.
-        // BlackBox 서로 관련있는 변수, 기능들 즉 메소드들을 딱 블랙박스와 관련된 만큼만 하나의 class로 정의하는 것 을 캡슐화로 보면 됨
+        // BlackBox 서로 관련있는 변수,기능들 즉 메소드들을 딱 블랙박스와 관련된 만큼만 하나의 class 로 정의하는 것을 캡슐화로 보면 됨
 
-        // 정보은닉 (Information hiding)
+        // 정보은닉 (Information hiding) : 정보를 숨기는 것
 
         // 접근 제어자 // 접근을 제어한다.
         // private : 해당 클래스 내에서만 접근 가능
@@ -15,16 +15,17 @@ public class _10_AccessModifier {
 
         BlackBoxRefurbish b1 = new BlackBoxRefurbish();
         b1.modelName = "까망이";
-        //b1.resoultion = "FHD";
+        //b1.resolution = "FHD";
         b1.setPrice(200000);
         b1.color = "블랙";
 
         //할인 행사
         b1.setPrice(-5000);
-       // System.out.println("가격 : " + b1.getPrice() + "원");  //price  private로 해둬서 안됨
+       // System.out.println("가격 : " + b1.getPrice() + "원");  //price 를 private 으로 해둬서 그냥은 접근 안됨
+        // getPrice 로 해야함
 
         // 고객 문의
-        System.out.println("해상도 : " + b1.resoultion);
+        System.out.println("해상도 : " + b1.resolution);
 
         System.out.println("--------------");
 
@@ -33,8 +34,8 @@ public class _10_AccessModifier {
         b2.setPrice(-5000);
         b2.setColor("화이트");
 
-      //  System.out.println("가격 : " + b2.getPrice() + "원"); ////price  private로 해둬서 안됨
-        System.out.println("해상도 : " + b2.getResoultion());
+      //  System.out.println("가격 : " + b2.getPrice() + "원"); ////price  private 로 해둬서 안됨
+        System.out.println("해상도 : " + b2.getResolution());
 
 
 

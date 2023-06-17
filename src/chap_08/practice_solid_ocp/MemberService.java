@@ -16,7 +16,6 @@ public class MemberService {
         // 1. validate
 
 
-
         // 2.
         Member member = new Member(
                 userName,

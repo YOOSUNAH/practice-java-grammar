@@ -14,7 +14,7 @@ public class _08_MainMethod {
         if (args.length == 1) {
             switch (args[0]) {
                 case "1" :
-                    System.out.println("도서 조회 메뉴입니다.");
+                    System.out.println("도서 조회 메뉴입니다.");   // edit configurations 전달값을 수정
                     break;
                 case "2" :
                     System.out.println("도서 대출 메뉴입니다.");

@@ -6,7 +6,7 @@ public class BlackBox {
     // static 없이 그냥 작성한 변수는 인스턴스
     // 서로 다른 객체에서 서로 다른 값을 가짐.
     String modelName; // 모델명
-    String resoultion; // 해상도
+    String resolution; // 해상도
     int price; // 가격
     String color; // 색상
     int serialNumber; // 시리얼 번호
@@ -25,14 +25,14 @@ public class BlackBox {
 //        System.out.println("새로운 시리얼 넘버를 발급받았습니다. : " + this.serialNumber);
     }
 
-    BlackBox(String modelName, String resoultion, int price, String color) {
+    BlackBox(String modelName, String resolution, int price, String color) {
 //        this(); // 기본생성자 호출 기본 생성자를 바로 접근 , 위에 같은 색깔의 BlackBox 생성자 동작을 바로 실행
 //
-//        System.out.println("사용자 정의 생성자 호출");
-//        this.modelName = modelName;
-//        this.resoultion = resoultion;
-//        this.price = price;
-//        this.color = "블랙";
+        System.out.println("사용자 정의 생성자 호출");
+        this.modelName = modelName;
+        this.resolution = resolution;
+        this.price = price;
+        this.color = "블랙";
     }
 
 
@@ -100,18 +100,20 @@ public class BlackBox {
         this.modelName = modelName;
     }
 
-    String getResoultion() {
-        if (resoultion == null || resoultion.isEmpty()) {
+    String getResolution() {
+        if (resolution == null || resolution.isEmpty()) {
             return "판매자에게 문의하세요.";
         }
-        return resoultion;  // resoultion 값이 없었어
+        return resolution;  // resolution 값이 없었어
     }
 
-    void setResoultion(String resoultion) {
-        this.resoultion = resoultion;
+    void setResolution(String resolution) {
+
+        this.resolution = resolution;
     }
 
     int getPrice() {
+
         return price;
     }
 
@@ -122,10 +124,48 @@ public class BlackBox {
             this.price = price;
         }
     }
-    String getColor(){
+
+    String getColor() {
+
         return color;
     }
-    void setColor(String color){
+
+    void setColor(String color) {
         this.color = color;
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
