@@ -15,7 +15,7 @@ public class _01_String1 {
         //포함 관계
         System.out.println(s.contains("Java"));//포함된다면 true /포함되지 않는다면 false
         System.out.println(s.contains("C#")); //false
-        System.out.println(s.indexOf("Java")); //위치정보 7. 0부터시작함
+        System.out.println(s.indexOf("Java")); //위치정보 7부터시작함
         System.out.println(s.indexOf("C#")); //포함되지 않는다면 -1.
         System.out.println(s.indexOf("and")); //처음 일치하는 위치 정보. 12
         System.out.println(s.lastIndexOf("and"));// 마지막 일치하는 위치 정보 23.
