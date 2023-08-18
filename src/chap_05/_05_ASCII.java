@@ -3,7 +3,7 @@ package chap_05;
 public class _05_ASCII {
     public static void main(String[] args) {
         // 아스키 코드 (ANSI) : 미국 표준 코드
-        // 알파벳 대문자(A)는 65 부터 시작, 소문자(B)는 97부터 시작, 숫자(0)는 48부터 시작
+        // 알파벳 대문자(A)는 65 부터 시작, 소문자(a)는 97부터 시작, 숫자(0)는 48부터 시작
 
         char c = 'A';  //48
         System.out.println(c); // A
