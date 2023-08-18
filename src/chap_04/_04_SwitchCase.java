@@ -10,7 +10,7 @@ public class _04_SwitchCase {
         // 3등 : 반액 장학금
         // 그 외 : 장학금 대상 아님
 
-        // If Else 문을 이요 (여러 조건 또는 범위에 해당하는 조건)
+        // If Else 문을 이용 (여러 조건 또는 범위에 해당하는 조건)
         int ranking = 4; //1등
         if (ranking == 1){
             System.out.println("전액 장학금");
