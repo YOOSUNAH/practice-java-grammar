@@ -2,7 +2,7 @@ package chap_06;
 
 public class _02_Parameter {
     // 전달값이 있는 메소드
-    public static void power(int number){  //number는 Parameter, 매개변수
+    public static void power(int number){  //number는 Parameter(매개변수)
         int result = number * number;
         System.out.println(number + " 의 2 승은 " + result);
     }
@@ -14,11 +14,7 @@ public class _02_Parameter {
         System.out.println(number + " 의 " + exponent + " 승은 " + result);
     }
     public static void main(String[] args) {
-        // 전달값, Parameter
-        // 2 -> 2 * 2 = 4
-        // 3 -> 3 * 3 = 9
-
-        // Argument, 인수를 괄호안에 써줌
+        // Argument 전달값, 인수를 괄호안에 써줌
         power(2); // 2 * 2 = 4
         power(3); // 3 * 3 = 9
 
