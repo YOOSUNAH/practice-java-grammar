@@ -18,7 +18,7 @@ public class _04_Arraylist {
 
 
         // 컬렉션 프레임워크_Array List
-        ArrayList<String> list = new ArrayList<>();  //<> 안에 어떤 형의 데이터를 넣ㅇ르지 정의
+        ArrayList<String> list = new ArrayList<>();  //<> 안에 어떤 형의 데이터를 넣을지 정의
 
         // 데이터 추가
         list.add("유재석");
