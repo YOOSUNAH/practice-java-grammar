@@ -2,7 +2,7 @@ package chap_09;
 
 import java.util.*;
 
-public class Iterator {
+public class _08_Iterator {
     public static void main(String[] args) {
         // iterator(이터레이터) _list 와 set 같은 데이터를 순회하는 것, 커서에 해당하는 위치와 그다음 한글자 한글 가져옴.
         // 데이터를 확인하다가 필요없으면 그자리에서 삭제도 용이
