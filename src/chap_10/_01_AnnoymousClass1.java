@@ -1,6 +1,6 @@
 package chap_10;
 
-public class _01_AnnoymousClass1 {
+public class _01_AnonymousClass1 {
     public static void main(String[] args) {
         // 익명 클래스 : 이름이 없는 클래스
         Coffee c1 = new Coffee();
