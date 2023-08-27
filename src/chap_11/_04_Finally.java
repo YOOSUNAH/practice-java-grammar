@@ -12,7 +12,7 @@ public class _04_Finally {
             System.out.println("택시의 문을 닫는다.");
         }
 
-        // try + catch(s)  _catch(s) : catch는 여러개 들어갈 수 잇다. catch 단독으로는 사용 불가능
+        // try + catch(s)  _catch(s) : catch는 여러개 들어갈 수 잇다. try 단독으로는 사용 불가능
         // try + catch(s) + finally
         // try + finally
 
